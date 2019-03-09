@@ -3,10 +3,10 @@ This script can be used to send data from CSV file to BVD. The csv file must hav
 
 Prerequisites
 1) Perl needs to be installed on the sender machine
-2) Following Perl modules need to be installed prior to running this script
-    JSON
-    LWP::Simple
-    LWP::UserAgent
+2) Following Perl modules need to be installed prior to running this script<br />
+    JSON<br />
+    LWP::Simple<br />
+    LWP::UserAgent<br />
 3) The receiver port on BVD server must be open for communication from sender machine<br /><br />
     
 
