@@ -1,2 +1,2 @@
 # MicroFocus
-Contains scripts that can be used with Microfocus products
+Contains scripts that can be used with Micro Focus products
