@@ -17,4 +17,4 @@ my $bvd_dim_value = "value";
 
 
 
-Syntax: perl bvd_csv_to_json.pl <CSV File>
+Syntax: perl bvd_csv_to_json.pl \<CSV File\>
