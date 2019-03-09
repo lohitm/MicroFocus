@@ -13,11 +13,11 @@ my $bvd_server = "xxxxxxxxxxxxxxxxx";
 my $bvd_receiver_port = "12224";
 my $bvd_api_key = "xxxxxxxxxxxxxxx";
 my $input_file = $ARGV[0];
-my $interval = 900;
-my $script = $0;
 my $bvd_tag  = "Test";
 my $bvd_dim = "BVD";
 my $bvd_dim_value = "value";
+my $interval = 900;
+my $script = $0;
 
 if ((length $bvd_server == 0) || (length $bvd_receiver_port == 0) || (length $bvd_api_key == 0)) {
 	die "BVD details not provided\n";
