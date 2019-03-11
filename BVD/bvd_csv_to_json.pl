@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 #This script can be used to convert csv data to json format and send to Micro Focus BVD
+#Refer README/bvd_csv_to_json_readme.md for more instructions
 #Author: Lohit Mohanta
 
 use strict;
