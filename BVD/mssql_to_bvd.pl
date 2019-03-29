@@ -23,11 +23,11 @@ else {
 }
 my $tag = 'Webapps';
 
-#Replace data and query accordingly
+#Replace data and queries accordingly
 my %client_hash = (
 	"data1" => 'query1',
-	"data2" => '',
-	"data3" => ''
+	"data2" => 'query2',
+	"data3" => 'query3'
 );
 
 my %json_post;
