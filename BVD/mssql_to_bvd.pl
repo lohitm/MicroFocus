@@ -13,7 +13,7 @@ use LWP::UserAgent;
 my $user = ''; # DB user                                     
 my $pwd  = ''; # DB Password                                 
 
-my $dbh = DBI->connect("dbi:ODBC:AMDSN",$user,$pwd); # Use the System DSN. Here it is AMDSN
+my $dbh = DBI->connect("dbi:ODBC:<DSN Name>",$user,$pwd); # Use the System DSN. Here it is AMDSN
 
 if (defined($dbh)) {
     print "Connected\n";
